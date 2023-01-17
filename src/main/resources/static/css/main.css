@@ -17,12 +17,7 @@ body {
     font-size: 1rem;
     line-height: 1.58;
     color: #333;
-    /*  background-color: #f4f4f4; */
     height: 100%;
-
-
-
-    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -34,7 +29,6 @@ body:before {
     position: absolute;
     top: 0;
     left: 0;
-    /*background: maxresdefault.jpg;*/
     content: "";
     z-index: 0;
 }
@@ -122,17 +116,14 @@ button.accent {
     width: 100%;
     max-width: 500px;
     display: inline-block;
-    margin-top: 42px;
     vertical-align: middle;
-    position: relative;
     padding: 35px 55px 35px;
     min-height: 250px;
     position: absolute;
     top: 50%;
     left: 0;
     right: 0;
-    margin: 0 auto;
-    margin-top: -160px;
+    margin: -160px auto 0;
 }
 
 .username-page-container .username-submit {
@@ -163,7 +154,7 @@ button.accent {
     margin: 0;
     overflow: auto;
     overflow-y: scroll;
-    padding: 0 20px 0px 20px;
+    padding: 0 20px 0 20px;
     height: calc(100% - 150px);
 }
 
