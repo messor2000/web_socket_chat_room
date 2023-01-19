@@ -23,4 +23,10 @@ public class ChatController {
   public ChatMessage sendMessage(@Payload ChatMessage chatMessage) {
     return chatMessage;
   }
+
+  @MessageMapping("/chat.edit.name")
+  @SendTo("/topic/public")
+  public ChatMessage editUsername(@Payload ChatMessage chatMessage) {
+    return chatMessage;
+  }
 }
